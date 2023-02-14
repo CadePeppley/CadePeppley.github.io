@@ -45,7 +45,7 @@
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     font-size: 56px;
     text-align: center;
-    color: #7AA585
+    color: #698E86;
 }
 
 .nav-div {
@@ -60,7 +60,7 @@ a:link, a:visited, a:hover, a:active {
 
 .nav-text {
     font-family: "Trebuchet MS", Helvetica, sans-serif;
-    color: #0D3A30;
+    color: #212529;
     text-align: center;
     font-weight: bold;
     font-size: 24px;
@@ -73,7 +73,7 @@ a:link, a:visited, a:hover, a:active {
 }
 
 .nav-text-container:hover {
-    background-color: #7AA585;
+    background-color: #698E86;
 }
 
 i {
