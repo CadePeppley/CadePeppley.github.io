@@ -16,19 +16,24 @@
 .color-secondary-2-1 { color: #7AA585 }
 .color-secondary-2-2 { color: #528760 }
 .color-secondary-2-3 { color: #215830 }
-.color-secondary-2-4 { color: #0F431D }
+.color-secondary-2-4 { color: #252926 }
+
+.dark { color: #252926 }
+.light { color: #528760 }
+.text { color: #d5ffe0 }
 
 /* ==========================================*/
 
 
 
 .main-bg {
-    background-color: #A1BAB4;
+    background-color: #252926;
 }
 
 .main-content-div {
     background-color: #698E86;
-    padding: 5px
+    padding: 15px;
+    border-radius: 15px;
 }
 
 .body-text {
@@ -40,6 +45,7 @@
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     font-size: 56px;
     text-align: center;
+    color: #698E86;
 }
 
 .nav-div {
@@ -54,7 +60,7 @@ a:link, a:visited, a:hover, a:active {
 
 .nav-text {
     font-family: "Trebuchet MS", Helvetica, sans-serif;
-    color: #0D3A30;
+    color: #212529;
     text-align: center;
     font-weight: bold;
     font-size: 24px;
@@ -67,7 +73,7 @@ a:link, a:visited, a:hover, a:active {
 }
 
 .nav-text-container:hover {
-    background-color: #7AA585;
+    background-color: #698E86;
 }
 
 i {
@@ -85,21 +91,15 @@ i {
     width: 100%;
 }
 
-.writing-content-div {
-    background-color: #698E86;
-    padding: 15px;
-    border-radius: 15px;
-}
-
-.writing-example-text {
+.description-text {
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     font-size: 18px;
 }
 
-.pdf-link {
-    color: #0F2A39;
+.pdf-link, .portfolio-link {
+    color: #163b4e;
 }
 
-.pdf-link:hover {
+.pdf-link:hover, .portfolio-link:hover {
     text-decoration: underline;
 }
